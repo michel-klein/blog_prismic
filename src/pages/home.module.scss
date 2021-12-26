@@ -1,1 +1,51 @@
+.logo {
+    margin: 4rem 0 3rem;
+}
+
+.posts {
+    max-width: 700px;
+    a {
+        display: block;
+        margin-bottom: 2rem;
+        h1 {
+            font-size: 1.75rem;
+            color: var(--heading);
+            font-weight: 700;
+            letter-spacing: -0.5px;
+            margin-bottom: 0.3rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.125rem;
+        }
+        div {
+            display: flex;
+            flex-direction: row;            
+            color: var(--info);
+            gap: 0.4rem;
+            time {
+                display: block;
+                font-size: 0.875rem;
+                margin-right: 1rem;
+            }
+            p {
+                font-size: 0.875rem;
+            }
+
+        }
+    }
+
+    button {
+        margin-top: 1rem;
+        background: var(--background);
+        color: var(--highlight);
+        border: none;
+        font-size: 1.125rem;
+        padding: 0.2rem;
+        font-weight: 600;
+    }
+
+}
+
+
 // TODO

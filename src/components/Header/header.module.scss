@@ -1,1 +1,15 @@
 // TODO
+.logo {
+    height: 50%;
+    width: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    max-width: 1120px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
