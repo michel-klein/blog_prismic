@@ -53,10 +53,10 @@ export default function Post({ post }: PostProps) {
       <Header />
       <img className={styles.imgBanner} src={post.data.banner.url} alt="" />
       <article className={styles.container}>
-        <p>{post.data.title}</p>
+        <h1>{post.data.title}</h1>
         <div className={styles.container_heading}>
           <div>
-            <FiCalendar size={20} />
+            <FiCalendar size={18} />
             <p>{format(
               new Date(post.first_publication_date),
               'dd MMM yyyy',
@@ -66,11 +66,11 @@ export default function Post({ post }: PostProps) {
             )}</p>
           </div>
           <div>
-            <FiUser size={20} />
+            <FiUser size={18} />
             <p>{post.data.author}</p>
           </div>
           <div>
-            <FiClock size={20} />
+            <FiClock size={18} />
             <p>{Math.ceil(wordCount / 200)} min</p>
           </div>
         </div>
